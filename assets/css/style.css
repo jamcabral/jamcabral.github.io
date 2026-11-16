@@ -9,7 +9,7 @@
   --rule: rgba(0, 0, 0, 0.25);
   --rule-soft: rgba(0, 0, 0, 0.12);
   --grid: rgba(0, 0, 0, 0.045);
-  --cross: rgba(0, 0, 0, 0.55);
+  --cross: rgba(0, 0, 0, 0.22);
 
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -48,11 +48,6 @@ body {
   font-feature-settings: "cv11", "ss01";
   -webkit-font-smoothing: antialiased;
 }
-
-html.has-crosshair,
-html.has-crosshair body { cursor: crosshair; }
-html.has-crosshair a,
-html.has-crosshair button { cursor: pointer; }
 
 ::selection { background: var(--fg); color: var(--bg); }
 
@@ -367,8 +362,17 @@ ul { padding: 0; list-style: none; }
   left: 0;
   will-change: transform;
 }
-.xh__h { width: 100%; height: 1px; background: var(--cross); }
-.xh__v { width: 1px; height: 100%; background: var(--cross); }
+/* linhas tracejadas e discretas para não atrapalhar a leitura */
+.xh__h {
+  width: 100%;
+  height: 1px;
+  background: repeating-linear-gradient(90deg, var(--cross) 0 4px, transparent 4px 9px);
+}
+.xh__v {
+  width: 1px;
+  height: 100%;
+  background: repeating-linear-gradient(180deg, var(--cross) 0 4px, transparent 4px 9px);
+}
 
 .xh__label {
   padding: 2px 6px;

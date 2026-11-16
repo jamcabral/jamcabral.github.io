@@ -6,8 +6,8 @@
       "en": "Computer Engineer · Software & Data Engineering · AI Security Researcher"
     },
     "summary": {
-      "pt": "Engenheiro de Computação e mestrando em Engenharia de Computação pela Universidade de Pernambuco (PPGEC/UPE), pesquisando segurança em Large Language Models (LLMs), com foco em Prompt Injection.",
-      "en": "Computer Engineer and Master's student in Computer Engineering at the University of Pernambuco (PPGEC/UPE), researching Large Language Model (LLM) security with a focus on Prompt Injection."
+      "pt": "Engenheiro de Computação e Engenheiro de Dados, mestrando em Engenharia de Computação pela Universidade de Pernambuco (PPGEC/UPE), pesquisando segurança em Large Language Models (LLMs), com foco em Prompt Injection.",
+      "en": "Computer Engineer and Data Engineer, Master's student in Computer Engineering at the University of Pernambuco (PPGEC/UPE), researching Large Language Model (LLM) security with a focus on Prompt Injection."
     },
     "location": null,
     "links": [
@@ -30,12 +30,16 @@
     ],
     "currently": [
       {
+        "pt": "Engenheiro de Dados na VisionOne, com pipelines e Data Warehouse na Oracle Cloud (OCI)",
+        "en": "Data Engineer at VisionOne, building pipelines and a data warehouse on Oracle Cloud (OCI)"
+      },
+      {
         "pt": "Pesquisando LLM Security & Prompt Injection no PPGEC/UPE",
         "en": "Researching LLM Security & Prompt Injection at PPGEC/UPE"
       },
       {
-        "pt": "Construindo soluções em Data Engineering & AI Engineering",
-        "en": "Building Data Engineering & AI Engineering solutions"
+        "pt": "Cursando pós-graduação em Cibersegurança",
+        "en": "Taking a postgraduate program in Cybersecurity"
       },
       {
         "pt": "Explorando LLMs, Generative AI e AI Security",
@@ -45,16 +49,78 @@
   },
   "experience": [
     {
-      "period": "04/2022 — 09/2023",
+      "period": {
+        "pt": "07/2023 — atual",
+        "en": "07/2023 — present"
+      },
+      "org": {
+        "pt": "VisionOne · Oftalmologia",
+        "en": "VisionOne · Ophthalmology"
+      },
+      "role": {
+        "pt": "Engenheiro de Dados",
+        "en": "Data Engineer"
+      },
+      "description": {
+        "pt": "Desenvolvimento de ETL na Oracle Cloud (OCI): Autonomous Data Warehouse (ADW) como Data Warehouse, Object Storage como Data Lake, Oracle Integration na orquestração das tarefas e OCI Data Flow com PySpark nas transformações de negócio. Camada de apresentação em Power BI e automações com Power Automate.",
+        "en": "Building ETL on Oracle Cloud (OCI): Autonomous Data Warehouse (ADW) as the data warehouse, Object Storage as the data lake, Oracle Integration orchestrating tasks and OCI Data Flow running PySpark for business transformations. Presentation layer in Power BI and automations with Power Automate."
+      },
+      "stack": [
+        "OCI",
+        "Autonomous Data Warehouse",
+        "Object Storage",
+        "Oracle Integration",
+        "OCI Data Flow",
+        "PySpark",
+        "Power BI",
+        "Power Automate"
+      ]
+    },
+    {
+      "period": "07/2023 — 03/2026",
+      "org": {
+        "pt": "Urbano Vitalino · Direito",
+        "en": "Urbano Vitalino · Legal sector"
+      },
+      "role": {
+        "pt": "Engenheiro de Dados",
+        "en": "Data Engineer"
+      },
+      "description": {
+        "pt": "Engenharia e análise de dados. Projeto e implementação de arquitetura Lakehouse na AWS, com Data Lake em S3 na arquitetura Medallion (Bronze/Silver/Gold), Delta Tables e catalogação no AWS Glue Data Catalog. Pipelines de ETL com AWS Glue (Python Shell e Spark), consumo analítico via Amazon Athena e Amazon Redshift, APIs serverless com AWS Lambda e API Gateway para integração de dados e dashboards executivos em Qlik Sense Cloud.",
+        "en": "Data engineering and analytics. Designed and implemented a Lakehouse architecture on AWS, with an S3 data lake following the Medallion architecture (Bronze/Silver/Gold), Delta Tables and cataloging in the AWS Glue Data Catalog. ETL pipelines with AWS Glue (Python Shell and Spark), analytical consumption through Amazon Athena and Amazon Redshift, serverless APIs with AWS Lambda and API Gateway for data integration, and executive dashboards in Qlik Sense Cloud."
+      },
+      "stack": [
+        "AWS S3",
+        "AWS Glue",
+        "Delta Tables",
+        "Glue Data Catalog",
+        "Amazon Athena",
+        "Amazon Redshift",
+        "AWS Lambda",
+        "API Gateway",
+        "Qlik Sense Cloud",
+        "PySpark",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "period": "04/2022 — 07/2023",
       "org": "Hospital do Tricentenário (OSS HTRI)",
       "role": {
         "pt": "Analista de Sistemas",
         "en": "Systems Analyst"
       },
       "description": {
-        "pt": "Desenvolvimento, análise e aplicação de melhorias de tecnologia da informação no grupo OSS HTRI. Criação de treinamentos de sistemas para os profissionais de TI do grupo, gestão de chamados, disseminação de conhecimento sobre os sistemas e implantação de boas práticas de TI.",
-        "en": "Developing, analyzing and rolling out IT improvements across the OSS HTRI healthcare group. Building systems training for the group's IT staff, managing support tickets, sharing systems knowledge and putting IT best practices in place."
-      }
+        "pt": "Desenvolvimento, análise e aplicação de melhorias de TI no grupo OSS HTRI, que reúne 11 unidades de saúde em Pernambuco. Treinamentos de sistemas para os profissionais de TI do grupo, gestão de chamados, disseminação de conhecimento e implantação de boas práticas de TI para toda a equipe espalhada pelo estado. Pipeline de dados com Azure Data Factory, Data Warehouse em Azure SQL Server e visualizações em Power BI.",
+        "en": "Developing, analyzing and rolling out IT improvements across the OSS HTRI group, which runs 11 healthcare units in Pernambuco. Systems training for the group's IT staff, ticket management, knowledge sharing and IT best practices for the whole team across the state. Data pipeline with Azure Data Factory, a data warehouse on Azure SQL Server and Power BI visualizations."
+      },
+      "stack": [
+        "Azure Data Factory",
+        "Azure SQL Server",
+        "Power BI"
+      ]
     },
     {
       "period": "08/2017 — 03/2022",
@@ -126,6 +192,20 @@
         "pt": "Pesquisa em segurança de LLMs, com foco em Prompt Injection.",
         "en": "Research on LLM security, focused on Prompt Injection."
       }
+    },
+    {
+      "draft": true,
+      "period": "",
+      "institution": "",
+      "degree": {
+        "pt": "Pós-graduação em Cibersegurança",
+        "en": "Postgraduate Degree in Cybersecurity"
+      },
+      "status": {
+        "pt": "em andamento",
+        "en": "in progress"
+      },
+      "note": null
     },
     {
       "period": "2023 — 2025",
@@ -368,19 +448,38 @@
     },
     {
       "label": {
-        "pt": "Dados",
-        "en": "Data"
+        "pt": "Engenharia de Dados",
+        "en": "Data Engineering"
       },
       "items": [
-        "Data Engineering",
         "ETL",
+        "Lakehouse",
+        "Medallion",
+        "Delta Tables",
         "Data Lake",
+        "Data Warehouse",
         "SQL",
+        "PySpark",
         "Pandas",
         "NumPy",
-        "Spark",
         "Hadoop",
         "Hive"
+      ]
+    },
+    {
+      "label": "Cloud",
+      "items": [
+        "AWS S3",
+        "AWS Glue",
+        "Amazon Athena",
+        "AWS Lambda",
+        "API Gateway",
+        "Azure Data Factory",
+        "Azure SQL",
+        "OCI ADW",
+        "OCI Object Storage",
+        "OCI Data Flow",
+        "Oracle Integration"
       ]
     },
     {
@@ -391,6 +490,7 @@
       "items": [
         "PostgreSQL",
         "pgvector",
+        "Amazon Redshift",
         "MySQL",
         "MongoDB",
         "MaxDB"
@@ -398,13 +498,13 @@
     },
     {
       "label": {
-        "pt": "BI & Visualização",
-        "en": "BI & Visualization"
+        "pt": "BI & Automação",
+        "en": "BI & Automation"
       },
       "items": [
         "Power BI",
-        "Tableau",
-        "Pentaho",
+        "Qlik Sense",
+        "Power Automate",
         "Matplotlib"
       ]
     },
@@ -429,7 +529,6 @@
         "React",
         "Streamlit",
         "Docker",
-        "AWS",
         "Git"
       ]
     },

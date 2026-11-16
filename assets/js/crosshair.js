@@ -68,7 +68,6 @@
 
   function enable() {
     if (!root) build();
-    document.documentElement.classList.add('has-crosshair');
     window.addEventListener('pointermove', onMove, { passive: true });
     window.addEventListener('scroll', onScroll, { passive: true });
     document.documentElement.addEventListener('mouseleave', hide);
@@ -78,7 +77,6 @@
   function disable() {
     if (!root) return;
     hide();
-    document.documentElement.classList.remove('has-crosshair');
     window.removeEventListener('pointermove', onMove);
     window.removeEventListener('scroll', onScroll);
     document.documentElement.removeEventListener('mouseleave', hide);
