@@ -1,0 +1,530 @@
+{
+  "profile": {
+    "name": "Jammesson Cabral",
+    "title": {
+      "pt": "Engenheiro de Computação · Engenharia de Software & Dados · Pesquisador em Segurança de IA",
+      "en": "Computer Engineer · Software & Data Engineering · AI Security Researcher"
+    },
+    "summary": {
+      "pt": "Engenheiro de Computação e mestrando em Engenharia de Computação pela Universidade de Pernambuco (PPGEC/UPE), pesquisando segurança em Large Language Models (LLMs), com foco em Prompt Injection.",
+      "en": "Computer Engineer and Master's student in Computer Engineering at the University of Pernambuco (PPGEC/UPE), researching Large Language Model (LLM) security with a focus on Prompt Injection."
+    },
+    "location": null,
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jamcabral"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jammesson-cabral/"
+      }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      {
+        "pt": "Minha atuação está na interseção entre Engenharia de Dados e Inteligência Artificial, aplicadas em áreas como Saúde, Direito e Cibersegurança, com interesse especial na construção de sistemas escaláveis, confiáveis e seguros.",
+        "en": "My work sits at the intersection of Data Engineering and Artificial Intelligence, applied to fields such as Healthcare, Law and Cybersecurity, with a particular interest in building scalable, reliable and secure systems."
+      }
+    ],
+    "currently": [
+      {
+        "pt": "Pesquisando LLM Security & Prompt Injection no PPGEC/UPE",
+        "en": "Researching LLM Security & Prompt Injection at PPGEC/UPE"
+      },
+      {
+        "pt": "Construindo soluções em Data Engineering & AI Engineering",
+        "en": "Building Data Engineering & AI Engineering solutions"
+      },
+      {
+        "pt": "Explorando LLMs, Generative AI e AI Security",
+        "en": "Exploring LLMs, Generative AI and AI Security"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "period": "04/2022 — 09/2023",
+      "org": "Hospital do Tricentenário (OSS HTRI)",
+      "role": {
+        "pt": "Analista de Sistemas",
+        "en": "Systems Analyst"
+      },
+      "description": {
+        "pt": "Desenvolvimento, análise e aplicação de melhorias de tecnologia da informação no grupo OSS HTRI. Criação de treinamentos de sistemas para os profissionais de TI do grupo, gestão de chamados, disseminação de conhecimento sobre os sistemas e implantação de boas práticas de TI.",
+        "en": "Developing, analyzing and rolling out IT improvements across the OSS HTRI healthcare group. Building systems training for the group's IT staff, managing support tickets, sharing systems knowledge and putting IT best practices in place."
+      }
+    },
+    {
+      "period": "08/2017 — 03/2022",
+      "org": {
+        "pt": "UPA Curado · Unidade de Pronto Atendimento",
+        "en": "UPA Curado · Emergency Care Unit"
+      },
+      "role": {
+        "pt": "Técnico de TI",
+        "en": "IT Technician"
+      },
+      "description": {
+        "pt": "Consultas SQL e relatórios no banco MaxDB; formulários e relatórios no sistema hospitalar Smart (Pixeon) e treinamento de médicos, enfermeiros, técnicos e equipe administrativa no sistema; scripts Python para extração de dados; dashboards em Power BI. Configuração de servidores e máquinas virtuais, política de backup, análise de rede e help desk. Profissional de tecnologia da unidade no projeto Sepse nas UPAs (Hospital Sírio-Libanês · PROADI-SUS).",
+        "en": "SQL queries and reports on a MaxDB database; forms and reports in the Smart (Pixeon) hospital information system, plus training doctors, nurses, technicians and administrative staff to use it; Python scripts for data extraction; Power BI dashboards. Server and virtual machine setup, backup policy, network analysis and help desk. The unit's technology professional in the Sepsis in Emergency Care Units project (Hospital Sírio-Libanês · PROADI-SUS)."
+      },
+      "stack": [
+        "SQL",
+        "MaxDB",
+        "Python",
+        "Power BI",
+        "Pixeon Smart"
+      ]
+    },
+    {
+      "period": "04/2016 — 07/2017",
+      "org": {
+        "pt": "UPA Ibura · Unidade de Pronto Atendimento",
+        "en": "UPA Ibura · Emergency Care Unit"
+      },
+      "role": {
+        "pt": "Auxiliar de TI",
+        "en": "IT Assistant"
+      },
+      "description": {
+        "pt": "Suporte técnico e help desk, instalação e atualização de programas e sistemas operacionais, manutenção de computadores, apoio aos usuários no sistema e planilhas e gráficos em Excel para a área administrativa.",
+        "en": "Technical support and help desk, installing and updating software and operating systems, computer maintenance, helping users with the hospital system, and Excel spreadsheets and charts for the administrative team."
+      },
+      "stack": [
+        "Help desk",
+        "Excel"
+      ]
+    },
+    {
+      "period": "01/2014 — 01/2016",
+      "org": "Clube Náutico Capibaribe",
+      "role": {
+        "pt": "Supervisor de Secretaria e Recepção",
+        "en": "Front Desk & Office Supervisor"
+      },
+      "description": {
+        "pt": "Coordenação da equipe, criação do roteiro de atendimento ao sócio, fechamento de caixa, venda de ingressos, planilhas com dados financeiros e apoio às eleições internas.",
+        "en": "Led the team, wrote the member service script, handled cash closing and ticket sales, built financial data spreadsheets and supported internal elections."
+      }
+    }
+  ],
+  "education": [
+    {
+      "period": "2026 — 2028",
+      "institution": "Universidade de Pernambuco (PPGEC/UPE)",
+      "degree": {
+        "pt": "Mestrado em Engenharia de Computação",
+        "en": "M.Sc. in Computer Engineering"
+      },
+      "status": {
+        "pt": "em andamento",
+        "en": "in progress"
+      },
+      "note": {
+        "pt": "Pesquisa em segurança de LLMs, com foco em Prompt Injection.",
+        "en": "Research on LLM security, focused on Prompt Injection."
+      }
+    },
+    {
+      "period": "2023 — 2025",
+      "institution": "CESAR School",
+      "degree": {
+        "pt": "Pós-graduação em Direito Digital",
+        "en": "Postgraduate Degree in Digital Law"
+      },
+      "status": null,
+      "note": null
+    },
+    {
+      "period": "2022 — 2023",
+      "institution": "CESAR School",
+      "degree": {
+        "pt": "Especialização em Engenharia e Análise de Dados",
+        "en": "Specialization in Data Engineering & Analytics"
+      },
+      "status": null,
+      "note": null
+    },
+    {
+      "period": "03/2021 — 04/2022",
+      "institution": "PUC Minas",
+      "degree": {
+        "pt": "Pós-graduação lato sensu em Ciência de Dados e Big Data",
+        "en": "Postgraduate Specialization (lato sensu) in Data Science & Big Data"
+      },
+      "status": null,
+      "note": {
+        "pt": "432 horas-aula.",
+        "en": "432 class hours."
+      }
+    },
+    {
+      "period": {
+        "pt": "conclusão 12/2020",
+        "en": "completed 12/2020"
+      },
+      "institution": "UNINASSAU",
+      "degree": {
+        "pt": "Bacharelado em Engenharia de Computação",
+        "en": "B.Sc. in Computer Engineering"
+      },
+      "status": null,
+      "note": null
+    }
+  ],
+  "projects": [
+    {
+      "name": {
+        "pt": "Sepse nas UPAs",
+        "en": "Sepsis in Emergency Care Units"
+      },
+      "featured": true,
+      "description": {
+        "pt": "Projeto do Hospital Sírio-Libanês com o Ministério da Saúde (PROADI-SUS) para reconhecer e tratar a sepse já no primeiro atendimento das UPAs, reduzindo o risco de óbito. Atuei como o profissional de tecnologia da UPA Curado no projeto, guiado por uma pergunta à equipe assistencial: \"o que eu posso fazer para que você gaste menos tempo na frente do computador?\"",
+        "en": "A Hospital Sírio-Libanês project with Brazil's Ministry of Health (PROADI-SUS) to recognize and treat sepsis at the very first visit to emergency care units (UPAs), lowering the risk of death. I was UPA Curado's technology professional on the project, guided by one question to the clinical team: \"what can I do so you spend less time in front of the computer?\""
+      },
+      "stack": [
+        {
+          "pt": "Saúde",
+          "en": "Healthcare"
+        },
+        "Hospital Sírio-Libanês",
+        "PROADI-SUS",
+        {
+          "pt": "Protocolo de sepse",
+          "en": "Sepsis protocol"
+        }
+      ],
+      "link": "https://htri.org.br/projeto-sepse-nas-upas-leva-profissionais-da-upa-curado-a-encontro-em-sao-paulo/"
+    },
+    {
+      "name": "RADAR",
+      "featured": true,
+      "description": {
+        "pt": "Retrieval-Augmented Document Analysis & Referencing: converse com seus PDFs. Indexa os documentos enviados e responde perguntas usando apenas o conteúdo deles, sempre citando arquivo, página e trecho de origem.",
+        "en": "Retrieval-Augmented Document Analysis & Referencing: chat with your PDFs. It indexes uploaded documents and answers questions using only their content, always citing the source file, page and passage."
+      },
+      "stack": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "PostgreSQL",
+        "pgvector",
+        "Streamlit",
+        "Docker"
+      ],
+      "repo": "https://github.com/jamcabral/radaria"
+    },
+    {
+      "name": "Pipeline ANTAQ",
+      "featured": true,
+      "description": {
+        "pt": "Pipeline de engenharia de dados sobre o Anuário Estatístico da ANTAQ: data lake em zonas bronze, prata e ouro, com extração automatizada, transformação e carga para análise.",
+        "en": "Data engineering pipeline over the ANTAQ Statistical Yearbook (Brazilian waterway transport): a bronze/silver/gold data lake with automated extraction, transformation and loading for analysis."
+      },
+      "stack": [
+        "Python",
+        "ETL",
+        "Data Lake"
+      ],
+      "repo": "https://github.com/jamcabral/sfiec_jam"
+    },
+    {
+      "name": "YOLOv5 Classify",
+      "description": {
+        "pt": "Classificação de imagens com YOLOv5 em PyTorch (projeto final de Modelos Preditivos Conexionistas, CESAR School), atingindo 81% de performance.",
+        "en": "Image classification with YOLOv5 in PyTorch (final project for Connectionist Predictive Models, CESAR School), reaching 81% performance."
+      },
+      "stack": [
+        "Python",
+        "PyTorch",
+        "YOLOv5",
+        "Computer Vision"
+      ],
+      "repo": "https://github.com/jamcabral/pos_cesar"
+    },
+    {
+      "name": {
+        "pt": "Rede Neural — Risco do Paciente",
+        "en": "Neural Network — Patient Risk"
+      },
+      "description": {
+        "pt": "Rede neural para classificação de risco do paciente.",
+        "en": "Neural network for patient risk classification."
+      },
+      "stack": [
+        "Python",
+        "Machine Learning",
+        {
+          "pt": "Saúde",
+          "en": "Healthcare"
+        }
+      ],
+      "repo": "https://github.com/jamcabral/redeneural"
+    },
+    {
+      "name": {
+        "pt": "Análise de Dados na Nuvem",
+        "en": "Cloud Data Analysis"
+      },
+      "description": {
+        "pt": "Trabalho final da disciplina de cloud (AWS) da pós em Engenharia de Dados da CESAR School: análise de um dataset de avaliações de filmes com Pandas.",
+        "en": "Final project for the cloud (AWS) course of the CESAR School Data Engineering postgraduate program: analysis of a movie-ratings dataset with Pandas."
+      },
+      "stack": [
+        "Python",
+        "Pandas",
+        "AWS"
+      ],
+      "repo": "https://github.com/jamcabral/jca-exerc-nuvem-pos-cesar"
+    },
+    {
+      "name": "read_pdf_senado",
+      "description": {
+        "pt": "Leitura e extração de dados de documentos PDF do Senado Federal.",
+        "en": "Reading and extracting data from Brazilian Federal Senate PDF documents."
+      },
+      "stack": [
+        "Python",
+        "Jupyter",
+        {
+          "pt": "Direito",
+          "en": "Law"
+        }
+      ],
+      "repo": "https://github.com/jamcabral/read_pdf_senado"
+    }
+  ],
+  "publications": [
+    {
+      "date": "06/2022",
+      "title": {
+        "pt": "Palestra convidada — Sepse nas UPAs",
+        "en": "Invited talk — Sepsis in Emergency Care Units"
+      },
+      "venue": {
+        "pt": "Hospital Sírio-Libanês · PROADI-SUS — São Paulo (mesa-redonda, participação remota)",
+        "en": "Hospital Sírio-Libanês · PROADI-SUS — São Paulo (round table, remote participation)"
+      },
+      "description": {
+        "pt": "Convidado pelo Hospital Sírio-Libanês para apresentar a UPAs de todo o Brasil o que um profissional de tecnologia pode contribuir para um projeto assistencial.",
+        "en": "Invited by Hospital Sírio-Libanês to show emergency care units from across Brazil what a technology professional can contribute to a patient-care project."
+      },
+      "link": "https://htri.org.br/projeto-sepse-nas-upas-leva-profissionais-da-upa-curado-a-encontro-em-sao-paulo/"
+    }
+  ],
+  "certifications": [
+    {
+      "date": "11/2021",
+      "title": "Big Data Engineer",
+      "venue": {
+        "pt": "Semantix Academy · 98 horas",
+        "en": "Semantix Academy · 98 hours"
+      }
+    },
+    {
+      "date": "09/2021",
+      "title": "Big Data — Foundations",
+      "venue": "Semantix Academy · Open Badge",
+      "stack": [
+        "Hadoop",
+        "HDFS",
+        "Sqoop",
+        "Spark",
+        "HBase",
+        "Hive",
+        "Docker"
+      ]
+    },
+    {
+      "date": "10/2020",
+      "title": {
+        "pt": "Desvendando a Indústria 4.0",
+        "en": "Unveiling Industry 4.0"
+      },
+      "venue": {
+        "pt": "SENAI CETIQT · 20 horas",
+        "en": "SENAI CETIQT · 20 hours"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "label": {
+        "pt": "IA & LLMs",
+        "en": "AI & LLMs"
+      },
+      "items": [
+        "LLM Security",
+        "Prompt Injection",
+        "RAG",
+        "LangChain",
+        "LangGraph",
+        "Generative AI"
+      ]
+    },
+    {
+      "label": {
+        "pt": "Dados",
+        "en": "Data"
+      },
+      "items": [
+        "Data Engineering",
+        "ETL",
+        "Data Lake",
+        "SQL",
+        "Pandas",
+        "NumPy",
+        "Spark",
+        "Hadoop",
+        "Hive"
+      ]
+    },
+    {
+      "label": {
+        "pt": "Bancos de dados",
+        "en": "Databases"
+      },
+      "items": [
+        "PostgreSQL",
+        "pgvector",
+        "MySQL",
+        "MongoDB",
+        "MaxDB"
+      ]
+    },
+    {
+      "label": {
+        "pt": "BI & Visualização",
+        "en": "BI & Visualization"
+      },
+      "items": [
+        "Power BI",
+        "Tableau",
+        "Pentaho",
+        "Matplotlib"
+      ]
+    },
+    {
+      "label": "Machine Learning",
+      "items": [
+        "PyTorch",
+        "YOLOv5",
+        "Computer Vision",
+        "Jupyter"
+      ]
+    },
+    {
+      "label": {
+        "pt": "Engenharia de Software",
+        "en": "Software Engineering"
+      },
+      "items": [
+        "Python",
+        "JavaScript",
+        "Django",
+        "React",
+        "Streamlit",
+        "Docker",
+        "AWS",
+        "Git"
+      ]
+    },
+    {
+      "label": {
+        "pt": "Infra & Sistemas de Saúde",
+        "en": "Infra & Health Systems"
+      },
+      "items": [
+        {
+          "pt": "Servidores",
+          "en": "Servers"
+        },
+        {
+          "pt": "Virtualização",
+          "en": "Virtualization"
+        },
+        "Backup",
+        {
+          "pt": "Redes",
+          "en": "Networking"
+        },
+        "Pixeon Smart",
+        "Help desk"
+      ]
+    }
+  ],
+  "ui": {
+    "sections": {
+      "profile": {
+        "pt": "Perfil",
+        "en": "Profile"
+      },
+      "about": {
+        "pt": "Sobre",
+        "en": "About"
+      },
+      "experience": {
+        "pt": "Experiência",
+        "en": "Experience"
+      },
+      "education": {
+        "pt": "Formação",
+        "en": "Education"
+      },
+      "projects": {
+        "pt": "Projetos",
+        "en": "Projects"
+      },
+      "publications": {
+        "pt": "Publicações & Palestras",
+        "en": "Publications & Talks"
+      },
+      "certifications": {
+        "pt": "Certificações",
+        "en": "Certifications"
+      },
+      "skills": {
+        "pt": "Competências",
+        "en": "Skills"
+      }
+    },
+    "nav": {
+      "publications": {
+        "pt": "palestras",
+        "en": "talks"
+      }
+    },
+    "currently": {
+      "pt": "Atualmente",
+      "en": "Currently"
+    },
+    "featured": {
+      "pt": "destaque",
+      "en": "featured"
+    },
+    "repo": {
+      "pt": "repositório",
+      "en": "repository"
+    },
+    "open": {
+      "pt": "abrir",
+      "en": "open"
+    },
+    "switchTo": {
+      "pt": "Switch to English",
+      "en": "Mudar para português"
+    },
+    "footer": {
+      "pt": "Feito à mão com HTML, CSS e JS",
+      "en": "Handmade with HTML, CSS and JS"
+    },
+    "pageTitle": {
+      "pt": "Jammesson Cabral — Currículo",
+      "en": "Jammesson Cabral — Résumé"
+    }
+  }
+}

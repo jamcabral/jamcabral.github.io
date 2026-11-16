@@ -1,0 +1,9 @@
+# Fontes privadas do currículo (PDF, LinkedIn, etc.) — nunca vão para o GitHub
+fontes/
+
+# Rede de segurança: nenhum PDF é versionado
+*.pdf
+
+# Sistema / ferramentas locais
+.DS_Store
+.claude/settings.local.json
