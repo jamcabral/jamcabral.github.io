@@ -1,120 +1,864 @@
 {
   "profile": {
     "name": "Jammesson Cabral",
-    "title": {
-      "pt": "Engenheiro de Computação · Engenharia de Software & Dados · Pesquisador em Segurança de IA",
-      "en": "Computer Engineer · Software & Data Engineering · AI Security Researcher"
-    },
-    "summary": {
-      "pt": "Engenheiro de Computação e Engenheiro de Dados, mestrando em Engenharia de Computação pela Universidade de Pernambuco (PPGEC/UPE), pesquisando segurança em Large Language Models (LLMs), com foco em Prompt Injection.",
-      "en": "Computer Engineer and Data Engineer, Master's student in Computer Engineering at the University of Pernambuco (PPGEC/UPE), researching Large Language Model (LLM) security with a focus on Prompt Injection."
-    },
-    "location": null,
     "links": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jammesson-cabral/"
+      },
       {
         "label": "GitHub",
         "url": "https://github.com/jamcabral"
       },
       {
-        "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/jammesson-cabral/"
-      }
-    ]
-  },
-  "about": {
-    "paragraphs": [
-      {
-        "pt": "Minha atuação está na interseção entre Engenharia de Dados e Inteligência Artificial, aplicadas em áreas como Saúde, Direito e Cibersegurança, com interesse especial na construção de sistemas escaláveis, confiáveis e seguros.",
-        "en": "My work sits at the intersection of Data Engineering and Artificial Intelligence, applied to fields such as Healthcare, Law and Cybersecurity, with a particular interest in building scalable, reliable and secure systems."
+        "label": "Instagram",
+        "url": "https://www.instagram.com/jmssca"
       }
     ],
-    "currently": [
+    "roles": [
       {
-        "pt": "Engenheiro de Dados na VisionOne, com pipelines e Data Warehouse na Oracle Cloud (OCI)",
-        "en": "Data Engineer at VisionOne, building pipelines and a data warehouse on Oracle Cloud (OCI)"
+        "pt": "Arquiteto de Dados",
+        "en": "Data Architect"
       },
       {
-        "pt": "Pesquisando LLM Security & Prompt Injection no PPGEC/UPE",
-        "en": "Researching LLM Security & Prompt Injection at PPGEC/UPE"
+        "pt": "Engenheiro de Dados Sênior",
+        "en": "Senior Data Engineer"
       },
       {
-        "pt": "Cursando pós-graduação em Cibersegurança",
-        "en": "Taking a postgraduate program in Cybersecurity"
+        "pt": "Professor universitário",
+        "en": "University Lecturer"
+      },
+      "Healthtech & Lawtech",
+      "DataSecOps",
+      "AWS & OCI",
+      "PySpark, Python, SQL",
+      "Airflow",
+      "dbt",
+      "Data Lakehouse",
+      "Data Warehouse",
+      {
+        "pt": "Governança",
+        "en": "Governance"
       },
       {
-        "pt": "Explorando LLMs, Generative AI e AI Security",
-        "en": "Exploring LLMs, Generative AI and AI Security"
+        "pt": "Segurança de LLM/IA",
+        "en": "LLM/AI Security"
+      }
+    ],
+    "pitch": {
+      "pt": "Construo plataformas de dados em nuvem para empresas onde o dado é sensível, como saúde e jurídico: do sistema de origem ao dashboard que a diretoria usa para decidir. No mestrado, pesquiso como proteger aplicações de IA contra Prompt Injection.",
+      "en": "I build cloud data platforms for companies where data is sensitive, like healthcare and legal: from the source system to the dashboard leadership uses to make decisions. In my Master's, I research how to protect AI applications against Prompt Injection."
+    }
+  },
+  "highlights": [
+    {
+      "value": "10+",
+      "label": {
+        "pt": "anos de TI e dados na saúde, e quase 3 também no setor jurídico",
+        "en": "years of IT and data in healthcare, plus nearly 3 in the legal sector"
+      }
+    },
+    {
+      "value": "60+",
+      "label": {
+        "pt": "hospitais e clínicas de olhos na Vision One, a rede onde construo a plataforma de dados",
+        "en": "eye hospitals and clinics at Vision One, the network whose data platform I build"
+      }
+    },
+    {
+      "value": "11",
+      "label": {
+        "pt": "unidades de saúde atendidas no grupo OSS HTRI",
+        "en": "healthcare units served at the OSS HTRI group"
+      }
+    },
+    {
+      "value": "3",
+      "label": {
+        "pt": "nuvens em produção: AWS, Azure e Oracle Cloud",
+        "en": "clouds in production: AWS, Azure and Oracle Cloud"
+      }
+    },
+    {
+      "value": "4",
+      "label": {
+        "pt": "certificações Oracle válidas: IA, Agentic AI, banco de dados e Data Platform",
+        "en": "valid Oracle certifications: AI, Agentic AI, database and Data Platform"
+      }
+    },
+    {
+      "value": "3",
+      "label": {
+        "pt": "pós-graduações concluídas, e o mestrado em segurança de LLMs em andamento",
+        "en": "postgraduate degrees completed, with a Master's in LLM security under way"
+      }
+    }
+  ],
+  "timeline": {
+    "work": [
+      {
+        "title": {
+          "pt": "Supervisor de Secretaria e Recepção",
+          "en": "Front Desk & Office Supervisor"
+        },
+        "org": "Clube Náutico Capibaribe",
+        "period": "01/2014 — 01/2016",
+        "from": "2014-01",
+        "to": "2016-01"
+      },
+      {
+        "title": {
+          "pt": "Auxiliar de TI",
+          "en": "IT Assistant"
+        },
+        "org": {
+          "pt": "UPA Ibura · Pronto Atendimento",
+          "en": "UPA Ibura · Emergency Care Unit"
+        },
+        "period": "04/2016 — 07/2017",
+        "from": "2016-04",
+        "to": "2017-07"
+      },
+      {
+        "title": {
+          "pt": "Técnico de TI",
+          "en": "IT Technician"
+        },
+        "org": {
+          "pt": "UPA Curado · Pronto Atendimento",
+          "en": "UPA Curado · Emergency Care Unit"
+        },
+        "period": "08/2017 — 03/2022",
+        "stack": [
+          "SQL",
+          "Python",
+          "Power BI",
+          "Pixeon Smart",
+          {
+            "pt": "Infraestrutura",
+            "en": "Infrastructure"
+          }
+        ],
+        "from": "2017-08",
+        "to": "2022-03"
+      },
+      {
+        "title": {
+          "pt": "Analista de Sistemas",
+          "en": "Systems Analyst"
+        },
+        "org": {
+          "pt": "OSS HTRI · 11 unidades de saúde",
+          "en": "OSS HTRI · 11 healthcare units"
+        },
+        "period": "04/2022 — 07/2023",
+        "stack": [
+          "Azure Data Factory",
+          "Azure SQL Server",
+          "Power BI"
+        ],
+        "from": "2022-04",
+        "to": "2023-07"
+      },
+      {
+        "title": {
+          "pt": "Engenheiro de Dados",
+          "en": "Data Engineer"
+        },
+        "org": {
+          "pt": "Vision One · rede com 60+ hospitais e clínicas de olhos",
+          "en": "Vision One · network of 60+ eye hospitals and clinics"
+        },
+        "period": {
+          "pt": "07/2023 — atual",
+          "en": "07/2023 — present"
+        },
+        "status": {
+          "pt": "atual",
+          "en": "current"
+        },
+        "stack": [
+          "OCI",
+          "PySpark",
+          "Autonomous Data Warehouse",
+          "Airflow",
+          "dbt",
+          "Power BI"
+        ],
+        "from": "2023-07",
+        "to": null
+      },
+      {
+        "title": {
+          "pt": "Engenheiro de Dados",
+          "en": "Data Engineer"
+        },
+        "org": {
+          "pt": "Urbano Vitalino · Direito",
+          "en": "Urbano Vitalino · Legal sector"
+        },
+        "period": "07/2023 — 03/2026",
+        "stack": [
+          "AWS",
+          "Lakehouse",
+          "Glue",
+          "Delta Tables",
+          "Redshift",
+          "Airflow",
+          "dbt"
+        ],
+        "from": "2023-07",
+        "to": "2026-03"
+      },
+      {
+        "title": {
+          "pt": "Professor universitário",
+          "en": "University Lecturer"
+        },
+        "org": {
+          "pt": "UNINASSAU Graças · Análise e Desenvolvimento de Sistemas, Recife",
+          "en": "UNINASSAU Graças · Systems Analysis and Development, Recife"
+        },
+        "period": {
+          "pt": "2026 — atual",
+          "en": "2026 — present"
+        },
+        "status": {
+          "pt": "atual",
+          "en": "current"
+        },
+        "note": {
+          "pt": "Disciplinas: Machine Learning, Coding e Tópicos Integradores. No Projeto Integrador, as turmas resolvem problemas reais do Banco de Oportunidades da Prefeitura do Recife.",
+          "en": "Courses: Machine Learning, Coding and Integrative Topics. In the capstone project, students tackle real problems from Recife City Hall's Opportunity Bank."
+        },
+        "stack": [
+          "Machine Learning",
+          "Coding",
+          {
+            "pt": "Tópicos Integradores",
+            "en": "Integrative Topics"
+          }
+        ],
+        "link": "https://github.com/jamcabral/template-bo-recife",
+        "from": "2026",
+        "to": null
+      }
+    ],
+    "study": [
+      {
+        "kind": {
+          "pt": "Formação",
+          "en": "Degree"
+        },
+        "title": {
+          "pt": "Bacharelado em Engenharia de Computação",
+          "en": "B.Sc. in Computer Engineering"
+        },
+        "org": "UNINASSAU",
+        "period": {
+          "pt": "conclusão 12/2020",
+          "en": "completed 12/2020"
+        },
+        "from": null,
+        "to": "2020-12"
+      },
+      {
+        "kind": {
+          "pt": "Formação",
+          "en": "Degree"
+        },
+        "title": {
+          "pt": "Pós-graduação em Ciência de Dados e Big Data",
+          "en": "Postgraduate Specialization in Data Science & Big Data"
+        },
+        "org": "PUC Minas",
+        "period": "03/2021 — 04/2022",
+        "from": "2021-03",
+        "to": "2022-04"
+      },
+      {
+        "kind": {
+          "pt": "Formação",
+          "en": "Degree"
+        },
+        "title": {
+          "pt": "Especialização em Engenharia e Análise de Dados",
+          "en": "Specialization in Data Engineering & Analytics"
+        },
+        "org": "CESAR School",
+        "period": "2022 — 2023",
+        "from": "2022",
+        "to": "2023"
+      },
+      {
+        "kind": {
+          "pt": "Palestra",
+          "en": "Talk"
+        },
+        "title": {
+          "pt": "Palestrante convidado · Sepse nas UPAs",
+          "en": "Invited speaker · Sepsis in Emergency Care Units"
+        },
+        "org": "Hospital Sírio-Libanês · PROADI-SUS",
+        "period": "06/2022",
+        "link": "https://htri.org.br/projeto-sepse-nas-upas-leva-profissionais-da-upa-curado-a-encontro-em-sao-paulo/",
+        "from": "2022-06",
+        "to": "2022-06",
+        "note": {
+          "pt": "Palestra no encerramento do projeto, a convite do Hospital Sírio-Libanês. Tema: como um profissional de tecnologia pode contribuir em projetos de saúde.",
+          "en": "Talk at the project's closing event, at the invitation of Hospital Sírio-Libanês. Topic: how a technology professional can contribute to healthcare projects."
+        }
+      },
+      {
+        "kind": {
+          "pt": "Formação",
+          "en": "Degree"
+        },
+        "title": {
+          "pt": "Pós-graduação em Direito Digital",
+          "en": "Postgraduate Degree in Digital Law"
+        },
+        "org": "CESAR School",
+        "period": "2023 — 2025",
+        "from": "2023",
+        "to": "2025"
+      },
+      {
+        "kind": {
+          "pt": "Mestrado",
+          "en": "Master's"
+        },
+        "title": {
+          "pt": "Mestrado em Engenharia de Computação",
+          "en": "M.Sc. in Computer Engineering"
+        },
+        "org": "PPGEC/UPE",
+        "period": {
+          "pt": "2026 — 2028 (previsto)",
+          "en": "2026 — 2028 (expected)"
+        },
+        "note": {
+          "pt": "Pesquisa: segurança de LLMs e Prompt Injection.",
+          "en": "Research: LLM security and Prompt Injection."
+        },
+        "status": {
+          "pt": "em andamento",
+          "en": "in progress"
+        },
+        "from": "2026",
+        "to": "2028"
+      },
+      {
+        "draft": true,
+        "kind": {
+          "pt": "Formação",
+          "en": "Degree"
+        },
+        "title": {
+          "pt": "Pós-graduação em Cibersegurança",
+          "en": "Postgraduate Degree in Cybersecurity"
+        },
+        "org": "",
+        "status": {
+          "pt": "em andamento",
+          "en": "in progress"
+        },
+        "from": null,
+        "to": null
+      },
+      {
+        "kind": {
+          "pt": "Certificações",
+          "en": "Certifications"
+        },
+        "title": {
+          "pt": "Certificações Big Data",
+          "en": "Big Data certifications"
+        },
+        "org": "Semantix Academy",
+        "period": "09/2021 — 11/2021",
+        "note": {
+          "pt": "Big Data — Foundations (09/2021, Open Badge) e Big Data Engineer (11/2021, 98 horas).",
+          "en": "Big Data — Foundations (09/2021, Open Badge) and Big Data Engineer (11/2021, 98 hours)."
+        },
+        "from": "2021-09",
+        "to": "2021-11",
+        "summary": true
+      },
+      {
+        "kind": {
+          "pt": "Certificações",
+          "en": "Certifications"
+        },
+        "title": {
+          "pt": "4 certificações Oracle",
+          "en": "4 Oracle certifications"
+        },
+        "org": "Oracle",
+        "period": "06/2025 — 07/2026",
+        "note": {
+          "pt": "Data Platform, OCI AI Foundations, AI Database e Agentic AI, válidas até 2027–2028.",
+          "en": "Data Platform, OCI AI Foundations, AI Database and Agentic AI, valid through 2027–2028."
+        },
+        "summary": true,
+        "from": "2025-06",
+        "to": "2026-07"
       }
     ]
   },
-  "experience": [
+  "certifications": [
     {
-      "period": {
-        "pt": "07/2023 — atual",
-        "en": "07/2023 — present"
+      "title": "Agentic AI Certified Foundations Associate",
+      "issuer": "Oracle",
+      "date": "2026-07",
+      "valid": "2028-07",
+      "verify": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=6C68E1877DDED0E64448A3DFAAE2464521CC9414A08F750FC342A72355E526A2"
+    },
+    {
+      "title": "Oracle AI Database Certified Foundations Associate",
+      "issuer": "Oracle",
+      "date": "2026-06",
+      "valid": "2028-06",
+      "verify": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=C457BC507C6CB3911483186519F8DC94429B7B979B0412040DEC4877616474FF"
+    },
+    {
+      "title": "AI Skills Fest 2026",
+      "issuer": "Microsoft",
+      "date": "2026-06",
+      "verify": "https://www.credly.com/badges/fce0ee3e-9ebe-4866-8b67-c6cd834ffc43"
+    },
+    {
+      "title": "Claude Code in Action",
+      "issuer": "Anthropic Academy",
+      "date": "2026-04",
+      "verify": "https://verify.skilljar.com/c/c8uiu2d7rok2"
+    },
+    {
+      "title": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+      "issuer": "Oracle",
+      "date": "2026-04",
+      "valid": "2028-04",
+      "verify": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=8D218D4C3570B45A69101D767588AD1DC90228A151AA21ABBD9BACC5DF971075"
+    },
+    {
+      "title": "Oracle Data Platform 2025 Certified Foundations Associate",
+      "issuer": "Oracle",
+      "date": "2025-06",
+      "valid": "2027-06",
+      "verify": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=84164B566EBC98FE6990087E66FF25B51AAF88EBDFE17633EF6AC973059A8553"
+    },
+    {
+      "title": "Business Intelligence (BI)",
+      "issuer": {
+        "pt": "FIAP · Nano Course, 40 horas",
+        "en": "FIAP · Nano Course, 40 hours"
+      },
+      "date": "2022-06",
+      "verify": "https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/54285/29adaecfc6700a1f31e51c7c6fb115b4/certificado.png"
+    },
+    {
+      "title": "Big Data – Engineer",
+      "issuer": {
+        "pt": "Semantix Academy · trilha de 98 horas",
+        "en": "Semantix Academy · 98-hour track"
+      },
+      "date": "2021-11",
+      "note": {
+        "pt": "Foundations, Redis, MongoDB, Kafka, Elastic e Spark",
+        "en": "Foundations, Redis, MongoDB, Kafka, Elastic and Spark"
+      },
+      "verify": "https://badges.parchment.com/public/assertions/eaxHPoChTouQcDN_nfX6rQ"
+    },
+    {
+      "title": "MongoDB – Básico",
+      "issuer": "Semantix Academy",
+      "date": "2021-09",
+      "verify": "https://badges.parchment.com/public/assertions/YQljx6yhTEChAHnegm7pgw"
+    },
+    {
+      "title": "Big Data – Foundations",
+      "issuer": "Semantix Academy",
+      "date": "2021-09",
+      "verify": "https://badges.parchment.com/public/assertions/RxKYK8_rSoKpUhAnkLQpJg"
+    }
+  ],
+  "cases": [
+    {
+      "meta": [
+        {
+          "pt": "Saúde",
+          "en": "Healthcare"
+        },
+        {
+          "pt": "Tempo real",
+          "en": "Real time"
+        },
+        "Hospital Sírio-Libanês · PROADI-SUS"
+      ],
+      "title": {
+        "pt": "Sepse nas UPAs: alerta automático para tratar na primeira hora",
+        "en": "Sepsis in emergency units: automatic alerts to treat within the first hour"
       },
       "org": {
-        "pt": "VisionOne · Oftalmologia",
-        "en": "VisionOne · Ophthalmology"
+        "pt": "UPA Curado",
+        "en": "UPA Curado (Emergency Care Unit)"
       },
       "role": {
-        "pt": "Engenheiro de Dados",
-        "en": "Data Engineer"
+        "pt": "automação, alertas e indicadores",
+        "en": "automation, alerts and indicators"
       },
-      "description": {
-        "pt": "Desenvolvimento de ETL na Oracle Cloud (OCI): Autonomous Data Warehouse (ADW) como Data Warehouse, Object Storage como Data Lake, Oracle Integration na orquestração das tarefas e OCI Data Flow com PySpark nas transformações de negócio. Camada de apresentação em Power BI e automações com Power Automate.",
-        "en": "Building ETL on Oracle Cloud (OCI): Autonomous Data Warehouse (ADW) as the data warehouse, Object Storage as the data lake, Oracle Integration orchestrating tasks and OCI Data Flow running PySpark for business transformations. Presentation layer in Power BI and automations with Power Automate."
+      "context": {
+        "pt": "Projeto do Hospital Sírio-Libanês com o Ministério da Saúde (PROADI-SUS) para reconhecer e tratar a sepse já no primeiro atendimento das UPAs, reduzindo o risco de óbito. O protocolo pede que o pacote de antibiótico seja aplicado na primeira hora. Meu trabalho partiu de uma pergunta à equipe assistencial:",
+        "en": "A Hospital Sírio-Libanês project with Brazil's Ministry of Health (PROADI-SUS) to recognize and treat sepsis at the very first visit to emergency care units (UPAs), lowering the risk of death. The protocol calls for the antibiotic bundle within the first hour. My work started from one question to the clinical team:"
       },
+      "quote": {
+        "pt": "O que eu posso fazer para que você gaste menos tempo na frente do computador?",
+        "en": "What can I do so you spend less time in front of the computer?"
+      },
+      "built": [
+        {
+          "pt": "Um robô que monitora, em tempo real, a entrada de pacientes na classificação de risco e verifica os critérios do protocolo (escore NEWS).",
+          "en": "A bot that monitors, in real time, patients entering risk triage and checks them against the protocol criteria (NEWS score)."
+        },
+        {
+          "pt": "Quando o paciente atende aos critérios, os gestores de cada área são notificados na hora: Enfermagem, Direção Médica, Farmácia, Alta Gestão e TI, para aplicar o pacote de antibiótico da primeira hora.",
+          "en": "When a patient meets the criteria, the managers of each area are notified at once: Nursing, Medical Director, Pharmacy, Senior Management and IT, so the first-hour antibiotic bundle is given."
+        },
+        {
+          "pt": "Indicadores do protocolo em tempo real e apresentados mensalmente: pacientes que chegaram com suspeita de sepse, quantos receberam o pacote na primeira hora e quais não receberam.",
+          "en": "Protocol indicators in real time and presented monthly: patients who arrived with suspected sepsis, how many received the bundle within the first hour and which did not."
+        }
+      ],
       "stack": [
-        "OCI",
-        "Autonomous Data Warehouse",
-        "Object Storage",
-        "Oracle Integration",
-        "OCI Data Flow",
-        "PySpark",
-        "Power BI",
-        "Power Automate"
+        {
+          "pt": "Protocolo de sepse",
+          "en": "Sepsis protocol"
+        },
+        {
+          "pt": "Escore NEWS",
+          "en": "NEWS score"
+        },
+        {
+          "pt": "Alertas em tempo real",
+          "en": "Real-time alerts"
+        },
+        {
+          "pt": "Indicadores",
+          "en": "Indicators"
+        },
+        "PROADI-SUS",
+        {
+          "pt": "Palestra convidada",
+          "en": "Invited talk"
+        }
+      ],
+      "link": "https://htri.org.br/projeto-sepse-nas-upas-leva-profissionais-da-upa-curado-a-encontro-em-sao-paulo/",
+      "result": {
+        "pt": "o alerta chega às cinco áreas no momento em que o paciente entra no protocolo, e cada caso é medido, inclusive os que ficaram fora da primeira hora. Esse trabalho me levou a palestrar, a convite do Hospital Sírio-Libanês, no encerramento do projeto para UPAs de todo o Brasil.",
+        "en": "the alert reaches all five areas the moment a patient enters the protocol, and every case is measured, including those outside the first hour. This work led Hospital Sírio-Libanês to invite me to speak at the project's closing event for emergency units from across Brazil."
+      },
+      "flow": [
+        {
+          "pt": "Classificação de risco",
+          "en": "Risk triage"
+        },
+        {
+          "pt": "Robô · critérios NEWS",
+          "en": "Bot · NEWS criteria"
+        },
+        {
+          "pt": "Alerta às 5 áreas",
+          "en": "Alert to 5 areas"
+        },
+        {
+          "pt": "Pacote de antibiótico · 1ª hora",
+          "en": "Antibiotic bundle · 1st hour"
+        },
+        {
+          "pt": "Indicadores · tempo real e mensal",
+          "en": "Indicators · real time and monthly"
+        }
       ]
     },
     {
-      "period": "07/2023 — 03/2026",
-      "org": {
-        "pt": "Urbano Vitalino · Direito",
-        "en": "Urbano Vitalino · Legal sector"
+      "meta": [
+        {
+          "pt": "Jurídico",
+          "en": "Legal"
+        },
+        "AWS",
+        "2023 — 2026"
+      ],
+      "title": {
+        "pt": "Lakehouse na AWS para um escritório de advocacia",
+        "en": "An AWS Lakehouse for a law firm"
       },
+      "org": "Urbano Vitalino",
       "role": {
-        "pt": "Engenheiro de Dados",
-        "en": "Data Engineer"
+        "pt": "arquitetura e implementação",
+        "en": "architecture and implementation"
       },
-      "description": {
-        "pt": "Engenharia e análise de dados. Projeto e implementação de arquitetura Lakehouse na AWS, com Data Lake em S3 na arquitetura Medallion (Bronze/Silver/Gold), Delta Tables e catalogação no AWS Glue Data Catalog. Pipelines de ETL com AWS Glue (Python Shell e Spark), consumo analítico via Amazon Athena e Amazon Redshift, APIs serverless com AWS Lambda e API Gateway para integração de dados e dashboards executivos em Qlik Sense Cloud.",
-        "en": "Data engineering and analytics. Designed and implemented a Lakehouse architecture on AWS, with an S3 data lake following the Medallion architecture (Bronze/Silver/Gold), Delta Tables and cataloging in the AWS Glue Data Catalog. ETL pipelines with AWS Glue (Python Shell and Spark), analytical consumption through Amazon Athena and Amazon Redshift, serverless APIs with AWS Lambda and API Gateway for data integration, and executive dashboards in Qlik Sense Cloud."
+      "context": {
+        "pt": "Projetei e implementei a arquitetura de dados do escritório, integrando o sistema jurídico próprio da empresa, o SAP (financeiro) e o RD Station (comercial e marketing), do dado bruto até os dashboards executivos.",
+        "en": "I designed and implemented the firm's data architecture, integrating the company's own legal system, SAP (finance) and RD Station (sales and marketing), from raw data to the executive dashboards."
       },
+      "built": [
+        {
+          "pt": "Data Lake em S3 com camadas Bronze, Silver e Gold, Delta Tables e catálogo no AWS Glue Data Catalog.",
+          "en": "An S3 data lake with Bronze, Silver and Gold layers, Delta Tables and the AWS Glue Data Catalog."
+        },
+        {
+          "pt": "Pipelines de ETL em AWS Glue (Python Shell e Spark), com consumo analítico por Athena e Redshift.",
+          "en": "ETL pipelines on AWS Glue (Python Shell and Spark), with analytical consumption through Athena and Redshift."
+        },
+        {
+          "pt": "Orquestração dos pipelines com Airflow e transformações em dbt.",
+          "en": "Pipeline orchestration with Airflow and transformations in dbt."
+        },
+        {
+          "pt": "APIs serverless com Lambda e API Gateway para integração de dados.",
+          "en": "Serverless APIs with Lambda and API Gateway for data integration."
+        },
+        {
+          "pt": "Governança e controle de acesso desde o desenho da arquitetura (DataSecOps).",
+          "en": "Governance and access control built into the architecture from the start (DataSecOps)."
+        },
+        {
+          "pt": "Dashboards executivos em Qlik Sense Cloud.",
+          "en": "Executive dashboards in Qlik Sense Cloud."
+        }
+      ],
+      "flow": [
+        {
+          "pt": "Sistema jurídico · SAP · RD Station",
+          "en": "Legal system · SAP · RD Station"
+        },
+        "S3 · Bronze",
+        "AWS Glue · Spark",
+        "Delta Tables · Silver / Gold",
+        "Athena · Redshift",
+        "Qlik Sense Cloud"
+      ],
       "stack": [
-        "AWS S3",
-        "AWS Glue",
-        "Delta Tables",
-        "Glue Data Catalog",
-        "Amazon Athena",
-        "Amazon Redshift",
-        "AWS Lambda",
-        "API Gateway",
-        "Qlik Sense Cloud",
         "PySpark",
         "Python",
-        "SQL"
-      ]
+        "SQL",
+        "Airflow",
+        "dbt",
+        "Lambda",
+        "API Gateway",
+        "Glue Data Catalog"
+      ],
+      "result": {
+        "pt": "os dados jurídicos, financeiros e comerciais passaram a ser analisados juntos, numa só base, nos dashboards executivos da gestão.",
+        "en": "legal, financial and sales data are now analyzed together, in a single base, in management's executive dashboards."
+      }
     },
     {
-      "period": "04/2022 — 07/2023",
-      "org": "Hospital do Tricentenário (OSS HTRI)",
-      "role": {
-        "pt": "Analista de Sistemas",
-        "en": "Systems Analyst"
+      "meta": [
+        {
+          "pt": "Saúde · Oftalmologia",
+          "en": "Healthcare · Ophthalmology"
+        },
+        "OCI",
+        {
+          "pt": "2023 — atual",
+          "en": "2023 — present"
+        }
+      ],
+      "title": {
+        "pt": "Plataforma de dados na Oracle Cloud para uma rede com 60+ hospitais de olhos",
+        "en": "A data platform on Oracle Cloud for a network of 60+ eye hospitals"
       },
-      "description": {
-        "pt": "Desenvolvimento, análise e aplicação de melhorias de TI no grupo OSS HTRI, que reúne 11 unidades de saúde em Pernambuco. Treinamentos de sistemas para os profissionais de TI do grupo, gestão de chamados, disseminação de conhecimento e implantação de boas práticas de TI para toda a equipe espalhada pelo estado. Pipeline de dados com Azure Data Factory, Data Warehouse em Azure SQL Server e visualizações em Power BI.",
-        "en": "Developing, analyzing and rolling out IT improvements across the OSS HTRI group, which runs 11 healthcare units in Pernambuco. Systems training for the group's IT staff, ticket management, knowledge sharing and IT best practices for the whole team across the state. Data pipeline with Azure Data Factory, a data warehouse on Azure SQL Server and Power BI visualizations."
+      "org": "Vision One",
+      "role": {
+        "pt": "Engenheiro de Dados",
+        "en": "Data Engineer"
+      },
+      "context": {
+        "pt": "A Vision One, controlada pela XP Private Equity, reúne mais de 60 hospitais e clínicas de olhos em 30 cidades e 13 estados. Cuido da esteira de dados na OCI, da ingestão ao relatório que o negócio consome, com telemetria em tempo real.",
+        "en": "Vision One, controlled by XP Private Equity, brings together more than 60 eye hospitals and clinics in 30 cities and 13 Brazilian states. I run the data pipeline on OCI, from ingestion to the reports the business consumes, with real-time telemetry."
+      },
+      "built": [
+        {
+          "pt": "Pipelines de ETL com Object Storage como Data Lake e Autonomous Data Warehouse (ADW) como Data Warehouse.",
+          "en": "ETL pipelines with Object Storage as the data lake and Autonomous Data Warehouse (ADW) as the warehouse."
+        },
+        {
+          "pt": "Transformações de negócio em PySpark no OCI Data Flow, orquestradas com Oracle Integration.",
+          "en": "Business transformations in PySpark on OCI Data Flow, orchestrated with Oracle Integration."
+        },
+        {
+          "pt": "Camada de apresentação em Power BI e automações com Power Automate.",
+          "en": "Presentation layer in Power BI and automations with Power Automate."
+        }
+      ],
+      "flow": [
+        {
+          "pt": "Sistemas de origem",
+          "en": "Source systems"
+        },
+        "Object Storage · Data Lake",
+        "OCI Data Flow · PySpark",
+        "Autonomous Data Warehouse",
+        "Power BI"
+      ],
+      "flowNote": {
+        "pt": "orquestração: Oracle Integration",
+        "en": "orchestration: Oracle Integration"
+      },
+      "stack": [
+        "PySpark",
+        "SQL",
+        "Airflow",
+        "dbt",
+        "Power Automate"
+      ],
+      "result": {
+        "pt": "a operação da rede é acompanhada com telemetria em tempo real, da ingestão ao Power BI.",
+        "en": "the network's operations are tracked with real-time telemetry, from ingestion to Power BI."
+      },
+      "link": "https://visionone.com.br/hospitais-oftalmologicos/"
+    },
+    {
+      "meta": [
+        {
+          "pt": "Saúde",
+          "en": "Healthcare"
+        },
+        {
+          "pt": "Tempo real",
+          "en": "Real time"
+        },
+        "Power BI"
+      ],
+      "title": {
+        "pt": "A ocupação da UPA, fila por fila, no celular da direção",
+        "en": "Emergency unit occupancy, queue by queue, on the director's phone"
+      },
+      "org": {
+        "pt": "UPA Curado",
+        "en": "UPA Curado (Emergency Care Unit)"
+      },
+      "role": {
+        "pt": "Técnico de TI",
+        "en": "IT Technician"
+      },
+      "context": {
+        "pt": "Para saber a lotação da unidade, era preciso entrar no sistema hospitalar Smart (Pixeon) e conferir fila por fila. Montei um painel em Power BI que mostra, em tempo real e no celular, quantos pacientes há em cada fila.",
+        "en": "To know how full the unit was, someone had to open the Smart (Pixeon) hospital system and check queue by queue. I built a Power BI dashboard that shows, in real time and on a phone, how many patients are in each queue."
+      },
+      "built": [
+        {
+          "pt": "Coleta da quantidade de pacientes em cada fila: Consultório, Pediatria, Emergência, Exames, Radiologia e outras.",
+          "en": "Collection of the number of patients in each queue: Consultation, Pediatrics, Emergency, Lab tests, Radiology and others."
+        },
+        {
+          "pt": "Painel em Power BI acessado pelo celular, com a ocupação da unidade em tempo real, acompanhado pelo diretor.",
+          "en": "A Power BI dashboard on the phone with the unit's occupancy in real time, monitored by the unit's director."
+        }
+      ],
+      "flow": [
+        "Smart · Pixeon",
+        {
+          "pt": "Pacientes por fila",
+          "en": "Patients per queue"
+        },
+        "Power BI",
+        {
+          "pt": "Direção · no celular",
+          "en": "Management · on the phone"
+        }
+      ],
+      "stack": [
+        "Pixeon Smart",
+        "Power BI",
+        {
+          "pt": "Monitoramento",
+          "en": "Monitoring"
+        }
+      ],
+      "result": {
+        "pt": "a direção deixou de abrir o sistema e conferir fila por fila: a lotação de cada setor está no celular, em tempo real.",
+        "en": "management no longer opens the system to check queue by queue: the occupancy of each area is on the phone, in real time."
+      }
+    },
+    {
+      "meta": [
+        {
+          "pt": "IA · RAG",
+          "en": "AI · RAG"
+        },
+        {
+          "pt": "código aberto",
+          "en": "open source"
+        }
+      ],
+      "title": {
+        "pt": "RADAR: um RAG que mostra de onde tirou a resposta",
+        "en": "RADAR: a RAG that shows where the answer came from"
+      },
+      "org": {
+        "pt": "Projeto final de pós-graduação · CESAR School",
+        "en": "Postgraduate final project · CESAR School"
+      },
+      "context": {
+        "pt": "Converse com seus PDFs. O RADAR responde só com base nos documentos enviados, cita arquivo, página e trecho de cada informação e diz claramente quando os documentos não cobrem o assunto.",
+        "en": "Chat with your PDFs. RADAR answers only from the uploaded documents, cites the file, page and passage behind each piece of information, and says so clearly when the documents don't cover the topic."
+      },
+      "built": [
+        {
+          "pt": "Sem acoplamento a fornecedor: OpenAI, Anthropic, Google ou modelos locais via Ollama, trocando só a configuração.",
+          "en": "No vendor lock-in: OpenAI, Anthropic, Google or local models via Ollama, switched through configuration alone."
+        },
+        {
+          "pt": "Com modelo local, nenhum dado sai da máquina.",
+          "en": "With a local model, no data leaves the machine."
+        },
+        {
+          "pt": "Um índice pgvector por modelo de embeddings, com reindexação automática.",
+          "en": "One pgvector index per embedding model, with automatic reindexing."
+        },
+        {
+          "pt": "Conversa orquestrada como grafo de estados em LangGraph, com testes automatizados.",
+          "en": "The conversation runs as a LangGraph state graph, with automated tests."
+        }
+      ],
+      "flow": [
+        "PDF",
+        {
+          "pt": "Trechos + embeddings",
+          "en": "Chunks + embeddings"
+        },
+        "PostgreSQL · pgvector",
+        {
+          "pt": "Trechos relevantes → LangGraph",
+          "en": "Relevant chunks → LangGraph"
+        },
+        {
+          "pt": "Resposta + fontes",
+          "en": "Answer + sources"
+        }
+      ],
+      "stack": [
+        "Python",
+        "LangChain",
+        "Ollama",
+        "Streamlit",
+        "Docker",
+        "pytest"
+      ],
+      "repo": "https://github.com/jamcabral/radaria"
+    },
+    {
+      "compact": true,
+      "title": {
+        "pt": "Dados e TI para 11 unidades de saúde",
+        "en": "Data and IT for 11 healthcare units"
+      },
+      "context": {
+        "pt": "No grupo OSS HTRI, em Pernambuco: pipeline de dados com Azure Data Factory, Data Warehouse em Azure SQL Server e visualizações em Power BI, além de boas práticas padronizadas e treinamentos para a equipe de TI do grupo.",
+        "en": "At the OSS HTRI group, in Pernambuco: a data pipeline with Azure Data Factory, a data warehouse on Azure SQL Server and Power BI visualizations, plus standardized best practices and training for the group's IT team."
       },
       "stack": [
         "Azure Data Factory",
@@ -123,185 +867,9 @@
       ]
     },
     {
-      "period": "08/2017 — 03/2022",
-      "org": {
-        "pt": "UPA Curado · Unidade de Pronto Atendimento",
-        "en": "UPA Curado · Emergency Care Unit"
-      },
-      "role": {
-        "pt": "Técnico de TI",
-        "en": "IT Technician"
-      },
-      "description": {
-        "pt": "Consultas SQL e relatórios no banco MaxDB; formulários e relatórios no sistema hospitalar Smart (Pixeon) e treinamento de médicos, enfermeiros, técnicos e equipe administrativa no sistema; scripts Python para extração de dados; dashboards em Power BI. Configuração de servidores e máquinas virtuais, política de backup, análise de rede e help desk. Profissional de tecnologia da unidade no projeto Sepse nas UPAs (Hospital Sírio-Libanês · PROADI-SUS).",
-        "en": "SQL queries and reports on a MaxDB database; forms and reports in the Smart (Pixeon) hospital information system, plus training doctors, nurses, technicians and administrative staff to use it; Python scripts for data extraction; Power BI dashboards. Server and virtual machine setup, backup policy, network analysis and help desk. The unit's technology professional in the Sepsis in Emergency Care Units project (Hospital Sírio-Libanês · PROADI-SUS)."
-      },
-      "stack": [
-        "SQL",
-        "MaxDB",
-        "Python",
-        "Power BI",
-        "Pixeon Smart"
-      ]
-    },
-    {
-      "period": "04/2016 — 07/2017",
-      "org": {
-        "pt": "UPA Ibura · Unidade de Pronto Atendimento",
-        "en": "UPA Ibura · Emergency Care Unit"
-      },
-      "role": {
-        "pt": "Auxiliar de TI",
-        "en": "IT Assistant"
-      },
-      "description": {
-        "pt": "Suporte técnico e help desk, instalação e atualização de programas e sistemas operacionais, manutenção de computadores, apoio aos usuários no sistema e planilhas e gráficos em Excel para a área administrativa.",
-        "en": "Technical support and help desk, installing and updating software and operating systems, computer maintenance, helping users with the hospital system, and Excel spreadsheets and charts for the administrative team."
-      },
-      "stack": [
-        "Help desk",
-        "Excel"
-      ]
-    },
-    {
-      "period": "01/2014 — 01/2016",
-      "org": "Clube Náutico Capibaribe",
-      "role": {
-        "pt": "Supervisor de Secretaria e Recepção",
-        "en": "Front Desk & Office Supervisor"
-      },
-      "description": {
-        "pt": "Coordenação da equipe, criação do roteiro de atendimento ao sócio, fechamento de caixa, venda de ingressos, planilhas com dados financeiros e apoio às eleições internas.",
-        "en": "Led the team, wrote the member service script, handled cash closing and ticket sales, built financial data spreadsheets and supported internal elections."
-      }
-    }
-  ],
-  "education": [
-    {
-      "period": "2026 — 2028",
-      "institution": "Universidade de Pernambuco (PPGEC/UPE)",
-      "degree": {
-        "pt": "Mestrado em Engenharia de Computação",
-        "en": "M.Sc. in Computer Engineering"
-      },
-      "status": {
-        "pt": "em andamento",
-        "en": "in progress"
-      },
-      "note": {
-        "pt": "Pesquisa em segurança de LLMs, com foco em Prompt Injection.",
-        "en": "Research on LLM security, focused on Prompt Injection."
-      }
-    },
-    {
-      "draft": true,
-      "period": "",
-      "institution": "",
-      "degree": {
-        "pt": "Pós-graduação em Cibersegurança",
-        "en": "Postgraduate Degree in Cybersecurity"
-      },
-      "status": {
-        "pt": "em andamento",
-        "en": "in progress"
-      },
-      "note": null
-    },
-    {
-      "period": "2023 — 2025",
-      "institution": "CESAR School",
-      "degree": {
-        "pt": "Pós-graduação em Direito Digital",
-        "en": "Postgraduate Degree in Digital Law"
-      },
-      "status": null,
-      "note": null
-    },
-    {
-      "period": "2022 — 2023",
-      "institution": "CESAR School",
-      "degree": {
-        "pt": "Especialização em Engenharia e Análise de Dados",
-        "en": "Specialization in Data Engineering & Analytics"
-      },
-      "status": null,
-      "note": null
-    },
-    {
-      "period": "03/2021 — 04/2022",
-      "institution": "PUC Minas",
-      "degree": {
-        "pt": "Pós-graduação lato sensu em Ciência de Dados e Big Data",
-        "en": "Postgraduate Specialization (lato sensu) in Data Science & Big Data"
-      },
-      "status": null,
-      "note": {
-        "pt": "432 horas-aula.",
-        "en": "432 class hours."
-      }
-    },
-    {
-      "period": {
-        "pt": "conclusão 12/2020",
-        "en": "completed 12/2020"
-      },
-      "institution": "UNINASSAU",
-      "degree": {
-        "pt": "Bacharelado em Engenharia de Computação",
-        "en": "B.Sc. in Computer Engineering"
-      },
-      "status": null,
-      "note": null
-    }
-  ],
-  "projects": [
-    {
-      "name": {
-        "pt": "Sepse nas UPAs",
-        "en": "Sepsis in Emergency Care Units"
-      },
-      "featured": true,
-      "description": {
-        "pt": "Projeto do Hospital Sírio-Libanês com o Ministério da Saúde (PROADI-SUS) para reconhecer e tratar a sepse já no primeiro atendimento das UPAs, reduzindo o risco de óbito. Atuei como o profissional de tecnologia da UPA Curado no projeto, guiado por uma pergunta à equipe assistencial: \"o que eu posso fazer para que você gaste menos tempo na frente do computador?\"",
-        "en": "A Hospital Sírio-Libanês project with Brazil's Ministry of Health (PROADI-SUS) to recognize and treat sepsis at the very first visit to emergency care units (UPAs), lowering the risk of death. I was UPA Curado's technology professional on the project, guided by one question to the clinical team: \"what can I do so you spend less time in front of the computer?\""
-      },
-      "stack": [
-        {
-          "pt": "Saúde",
-          "en": "Healthcare"
-        },
-        "Hospital Sírio-Libanês",
-        "PROADI-SUS",
-        {
-          "pt": "Protocolo de sepse",
-          "en": "Sepsis protocol"
-        }
-      ],
-      "link": "https://htri.org.br/projeto-sepse-nas-upas-leva-profissionais-da-upa-curado-a-encontro-em-sao-paulo/"
-    },
-    {
-      "name": "RADAR",
-      "featured": true,
-      "description": {
-        "pt": "Retrieval-Augmented Document Analysis & Referencing: converse com seus PDFs. Indexa os documentos enviados e responde perguntas usando apenas o conteúdo deles, sempre citando arquivo, página e trecho de origem.",
-        "en": "Retrieval-Augmented Document Analysis & Referencing: chat with your PDFs. It indexes uploaded documents and answers questions using only their content, always citing the source file, page and passage."
-      },
-      "stack": [
-        "Python",
-        "LangChain",
-        "LangGraph",
-        "RAG",
-        "PostgreSQL",
-        "pgvector",
-        "Streamlit",
-        "Docker"
-      ],
-      "repo": "https://github.com/jamcabral/radaria"
-    },
-    {
-      "name": "Pipeline ANTAQ",
-      "featured": true,
-      "description": {
+      "compact": true,
+      "title": "Pipeline ANTAQ",
+      "context": {
         "pt": "Pipeline de engenharia de dados sobre o Anuário Estatístico da ANTAQ: data lake em zonas bronze, prata e ouro, com extração automatizada, transformação e carga para análise.",
         "en": "Data engineering pipeline over the ANTAQ Statistical Yearbook (Brazilian waterway transport): a bronze/silver/gold data lake with automated extraction, transformation and loading for analysis."
       },
@@ -313,8 +881,10 @@
       "repo": "https://github.com/jamcabral/sfiec_jam"
     },
     {
-      "name": "YOLOv5 Classify",
-      "description": {
+      "compact": true,
+      "draft": true,
+      "title": "YOLOv5 Classify",
+      "context": {
         "pt": "Classificação de imagens com YOLOv5 em PyTorch (projeto final de Modelos Preditivos Conexionistas, CESAR School), atingindo 81% de performance.",
         "en": "Image classification with YOLOv5 in PyTorch (final project for Connectionist Predictive Models, CESAR School), reaching 81% performance."
       },
@@ -327,11 +897,13 @@
       "repo": "https://github.com/jamcabral/pos_cesar"
     },
     {
-      "name": {
+      "compact": true,
+      "draft": true,
+      "title": {
         "pt": "Rede Neural — Risco do Paciente",
         "en": "Neural Network — Patient Risk"
       },
-      "description": {
+      "context": {
         "pt": "Rede neural para classificação de risco do paciente.",
         "en": "Neural network for patient risk classification."
       },
@@ -346,11 +918,13 @@
       "repo": "https://github.com/jamcabral/redeneural"
     },
     {
-      "name": {
+      "compact": true,
+      "draft": true,
+      "title": {
         "pt": "Análise de Dados na Nuvem",
         "en": "Cloud Data Analysis"
       },
-      "description": {
+      "context": {
         "pt": "Trabalho final da disciplina de cloud (AWS) da pós em Engenharia de Dados da CESAR School: análise de um dataset de avaliações de filmes com Pandas.",
         "en": "Final project for the cloud (AWS) course of the CESAR School Data Engineering postgraduate program: analysis of a movie-ratings dataset with Pandas."
       },
@@ -362,8 +936,10 @@
       "repo": "https://github.com/jamcabral/jca-exerc-nuvem-pos-cesar"
     },
     {
-      "name": "read_pdf_senado",
-      "description": {
+      "compact": true,
+      "draft": true,
+      "title": "read_pdf_senado",
+      "context": {
         "pt": "Leitura e extração de dados de documentos PDF do Senado Federal.",
         "en": "Reading and extracting data from Brazilian Federal Senate PDF documents."
       },
@@ -378,122 +954,191 @@
       "repo": "https://github.com/jamcabral/read_pdf_senado"
     }
   ],
-  "publications": [
+  "principles": [
     {
-      "date": "06/2022",
       "title": {
-        "pt": "Palestra convidada — Sepse nas UPAs",
-        "en": "Invited talk — Sepsis in Emergency Care Units"
+        "pt": "Entrego de ponta a ponta",
+        "en": "I deliver end to end"
       },
-      "venue": {
-        "pt": "Hospital Sírio-Libanês · PROADI-SUS — São Paulo (mesa-redonda, participação remota)",
-        "en": "Hospital Sírio-Libanês · PROADI-SUS — São Paulo (round table, remote participation)"
+      "text": {
+        "pt": "Do desenho da arquitetura ao dashboard executivo: ingestão, transformação em Spark, Data Warehouse e camada analítica saem da mesma mão.",
+        "en": "From the architecture design to the executive dashboard: ingestion, Spark transformations, the data warehouse and the analytics layer all come from the same hands."
       },
-      "description": {
-        "pt": "Convidado pelo Hospital Sírio-Libanês para apresentar a UPAs de todo o Brasil o que um profissional de tecnologia pode contribuir para um projeto assistencial.",
-        "en": "Invited by Hospital Sírio-Libanês to show emergency care units from across Brazil what a technology professional can contribute to a patient-care project."
-      },
-      "link": "https://htri.org.br/projeto-sepse-nas-upas-leva-profissionais-da-upa-curado-a-encontro-em-sao-paulo/"
-    }
-  ],
-  "certifications": [
-    {
-      "date": "11/2021",
-      "title": "Big Data Engineer",
-      "venue": {
-        "pt": "Semantix Academy · 98 horas",
-        "en": "Semantix Academy · 98 hours"
+      "proof": {
+        "pt": "Lakehouse na AWS · Plataforma na OCI",
+        "en": "AWS Lakehouse · OCI platform"
       }
     },
     {
-      "date": "09/2021",
-      "title": "Big Data — Foundations",
-      "venue": "Semantix Academy · Open Badge",
+      "title": {
+        "pt": "Várias nuvens, o mesmo resultado",
+        "en": "Many clouds, the same result"
+      },
+      "text": {
+        "pt": "AWS, Azure e Oracle Cloud dão nomes diferentes a serviços parecidos: S3 ou Object Storage, Glue ou Data Factory, Redshift ou Autonomous Data Warehouse. Já entreguei nas três, e o resultado é o mesmo: dado confiável, do sistema de origem ao dashboard.",
+        "en": "AWS, Azure and Oracle Cloud give different names to similar services: S3 or Object Storage, Glue or Data Factory, Redshift or Autonomous Data Warehouse. I've delivered on all three, and the result is the same: reliable data, from the source system to the dashboard."
+      },
+      "proof": {
+        "pt": "Lakehouse na AWS · OSS HTRI na Azure · Vision One na OCI",
+        "en": "AWS Lakehouse · OSS HTRI on Azure · Vision One on OCI"
+      }
+    },
+    {
+      "title": {
+        "pt": "Dado sensível é o meu padrão",
+        "en": "Sensitive data is my default"
+      },
+      "text": {
+        "pt": "Minha carreira foi em saúde e no setor jurídico, então governança e controle de acesso entram no desenho da arquitetura desde o início, não depois (DataSecOps). Somei a isso uma pós em Direito Digital e o mestrado em segurança de LLMs.",
+        "en": "My career has been in healthcare and the legal sector, so governance and access control go into the architecture from the start, not afterwards (DataSecOps). On top of that came a postgraduate degree in Digital Law and a Master's in LLM security."
+      },
+      "proof": {
+        "pt": "Saúde · Jurídico · DataSecOps · PPGEC/UPE",
+        "en": "Healthcare · Legal · DataSecOps · PPGEC/UPE"
+      }
+    },
+    {
+      "title": {
+        "pt": "Tecnologia serve a quem usa",
+        "en": "Technology serves its users"
+      },
+      "text": {
+        "pt": "Treinei médicos, enfermeiros e equipes de TI, padronizei práticas para um grupo com 11 unidades, fui convidado pelo Hospital Sírio-Libanês a contar como a tecnologia ajuda quem atende e hoje formo novos profissionais como professor de ADS.",
+        "en": "I've trained doctors, nurses and IT teams, standardized practices for a group with 11 units, was invited by Hospital Sírio-Libanês to explain how technology helps the people providing care, and today I train new professionals as a university lecturer."
+      },
+      "proof": {
+        "pt": "Sepse nas UPAs · OSS HTRI · UNINASSAU",
+        "en": "Sepsis in Emergency Care Units · OSS HTRI · UNINASSAU"
+      }
+    }
+  ],
+  "research": [
+    {
+      "date": "2026 — 2028",
+      "title": {
+        "pt": "Segurança em LLMs: ataques de Prompt Injection e defesas",
+        "en": "LLM Security: Prompt Injection attacks and defenses"
+      },
+      "venue": {
+        "pt": "Mestrado em Engenharia de Computação · PPGEC/UPE",
+        "en": "M.Sc. in Computer Engineering · PPGEC/UPE"
+      },
+      "description": {
+        "pt": "Investigo como instruções maliciosas, inseridas no prompt ou em conteúdos que o modelo consome (como os documentos de um sistema RAG), desviam o comportamento de aplicações com LLMs, e quais mecanismos de defesa funcionam na prática.",
+        "en": "I study how malicious instructions, placed in the prompt or in content the model consumes (such as the documents of a RAG system), hijack the behavior of LLM applications, and which defense mechanisms work in practice."
+      },
       "stack": [
-        "Hadoop",
-        "HDFS",
-        "Sqoop",
-        "Spark",
-        "HBase",
-        "Hive",
-        "Docker"
+        "LLM Security",
+        "Prompt Injection",
+        "RAG"
       ]
     },
     {
-      "date": "10/2020",
+      "draft": true,
+      "date": "2026",
       "title": {
-        "pt": "Desvendando a Indústria 4.0",
-        "en": "Unveiling Industry 4.0"
+        "pt": "Laboratório de injeção indireta de prompt em RAG",
+        "en": "Indirect prompt injection lab for RAG"
       },
       "venue": {
-        "pt": "SENAI CETIQT · 20 horas",
-        "en": "SENAI CETIQT · 20 hours"
-      }
+        "pt": "Repositório privado durante a pesquisa",
+        "en": "Private repository during the research"
+      },
+      "description": {
+        "pt": "Laboratório experimental para avaliar injeção indireta de instruções, manipulação da recuperação e envenenamento factual em sistemas RAG, com modelos locais servidos pelo Ollama.",
+        "en": "An experimental lab to evaluate indirect prompt injection, retrieval manipulation and factual poisoning in RAG systems, with local models served by Ollama."
+      },
+      "stack": [
+        "Ollama",
+        "LangGraph",
+        "pgvector",
+        "Docker"
+      ]
     }
   ],
   "skills": [
-    {
-      "label": {
-        "pt": "IA & LLMs",
-        "en": "AI & LLMs"
-      },
-      "items": [
-        "LLM Security",
-        "Prompt Injection",
-        "RAG",
-        "LangChain",
-        "LangGraph",
-        "Generative AI"
-      ]
-    },
     {
       "label": {
         "pt": "Engenharia de Dados",
         "en": "Data Engineering"
       },
       "items": [
+        "SQL",
+        "PySpark",
+        "Airflow",
+        "dbt",
         "ETL",
         "Lakehouse",
         "Medallion",
         "Delta Tables",
-        "Data Lake",
         "Data Warehouse",
-        "SQL",
-        "PySpark",
-        "Pandas",
-        "NumPy",
-        "Hadoop",
-        "Hive"
+        "Pandas"
       ]
     },
     {
-      "label": "Cloud",
+      "label": "Cloud · AWS",
       "items": [
-        "AWS S3",
-        "AWS Glue",
-        "Amazon Athena",
-        "AWS Lambda",
-        "API Gateway",
+        "S3",
+        "Glue",
+        "Glue Data Catalog",
+        "Athena",
+        "Redshift",
+        "Lambda",
+        "API Gateway"
+      ]
+    },
+    {
+      "label": "Cloud · Azure & OCI",
+      "items": [
         "Azure Data Factory",
         "Azure SQL",
         "OCI ADW",
-        "OCI Object Storage",
         "OCI Data Flow",
+        "Object Storage",
         "Oracle Integration"
       ]
     },
     {
       "label": {
-        "pt": "Bancos de dados",
-        "en": "Databases"
+        "pt": "IA & LLMs",
+        "en": "AI & LLMs"
       },
       "items": [
-        "PostgreSQL",
+        "RAG",
+        "LangChain",
+        "LangGraph",
+        "MCP",
+        {
+          "pt": "Agentes de IA",
+          "en": "AI agents"
+        },
         "pgvector",
-        "Amazon Redshift",
-        "MySQL",
-        "MongoDB",
-        "MaxDB"
+        "Ollama",
+        "Streamlit",
+        "PyTorch"
+      ]
+    },
+    {
+      "label": {
+        "pt": "Segurança & governança",
+        "en": "Security & governance"
+      },
+      "items": [
+        "DataSecOps",
+        {
+          "pt": "Governança de dados",
+          "en": "Data governance"
+        },
+        {
+          "pt": "Controle de acesso",
+          "en": "Access control"
+        },
+        "LLM Security",
+        "Prompt Injection",
+        {
+          "pt": "Cibersegurança",
+          "en": "Cybersecurity"
+        }
       ]
     },
     {
@@ -504,106 +1149,142 @@
       "items": [
         "Power BI",
         "Qlik Sense",
-        "Power Automate",
-        "Matplotlib"
-      ]
-    },
-    {
-      "label": "Machine Learning",
-      "items": [
-        "PyTorch",
-        "YOLOv5",
-        "Computer Vision",
-        "Jupyter"
+        "Power Automate"
       ]
     },
     {
       "label": {
-        "pt": "Engenharia de Software",
-        "en": "Software Engineering"
+        "pt": "Base",
+        "en": "Foundations"
       },
       "items": [
         "Python",
-        "JavaScript",
-        "Django",
-        "React",
-        "Streamlit",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
         "Docker",
         "Git"
       ]
-    },
-    {
-      "label": {
-        "pt": "Infra & Sistemas de Saúde",
-        "en": "Infra & Health Systems"
-      },
-      "items": [
-        {
-          "pt": "Servidores",
-          "en": "Servers"
-        },
-        {
-          "pt": "Virtualização",
-          "en": "Virtualization"
-        },
-        "Backup",
-        {
-          "pt": "Redes",
-          "en": "Networking"
-        },
-        "Pixeon Smart",
-        "Help desk"
-      ]
     }
   ],
+  "contact": {
+    "title": {
+      "pt": "Vamos conversar sobre o seu problema de dados.",
+      "en": "Let's talk about your data problem."
+    },
+    "text": {
+      "pt": "Me chame no LinkedIn ou no Instagram. O currículo completo eu envio na conversa.",
+      "en": "Message me on LinkedIn or Instagram. I'll send the full résumé when we talk."
+    }
+  },
   "ui": {
     "sections": {
-      "profile": {
-        "pt": "Perfil",
-        "en": "Profile"
+      "cases": {
+        "pt": "Casos",
+        "en": "Case studies"
       },
-      "about": {
-        "pt": "Sobre",
-        "en": "About"
+      "credentials": {
+        "pt": "Formação & certificações",
+        "en": "Education & certifications"
       },
-      "experience": {
-        "pt": "Experiência",
-        "en": "Experience"
+      "testimonials": {
+        "pt": "Recomendações",
+        "en": "Recommendations"
       },
-      "education": {
-        "pt": "Formação",
-        "en": "Education"
+      "principles": {
+        "pt": "Como eu trabalho",
+        "en": "How I work"
       },
-      "projects": {
-        "pt": "Projetos",
-        "en": "Projects"
-      },
-      "publications": {
-        "pt": "Publicações & Palestras",
-        "en": "Publications & Talks"
-      },
-      "certifications": {
-        "pt": "Certificações",
-        "en": "Certifications"
+      "research": {
+        "pt": "Pesquisa",
+        "en": "Research"
       },
       "skills": {
-        "pt": "Competências",
-        "en": "Skills"
+        "pt": "Stack",
+        "en": "Stack"
+      },
+      "contact": {
+        "pt": "Contato",
+        "en": "Contact"
+      }
+    },
+    "leads": {
+      "cases": {
+        "pt": "Cinco trabalhos que mostram o que eu construo e como penso.",
+        "en": "Five pieces of work that show what I build and how I think."
+      },
+      "credentials": {
+        "pt": "Estudo o que entrego.",
+        "en": "I study what I deliver."
+      },
+      "principles": {
+        "pt": "O que se repete em todo projeto que eu assumo.",
+        "en": "What shows up in every project I take on."
+      },
+      "research": {
+        "pt": "Quem coloca um LLM para ler documentos precisa saber o que acontece quando o documento mente.",
+        "en": "Anyone who lets an LLM read documents needs to know what happens when the document lies."
       }
     },
     "nav": {
-      "publications": {
-        "pt": "palestras",
-        "en": "talks"
+      "cases": {
+        "pt": "casos",
+        "en": "cases"
+      },
+      "credentials": {
+        "pt": "formação",
+        "en": "education"
+      },
+      "principles": {
+        "pt": "método",
+        "en": "method"
+      },
+      "timeline": {
+        "pt": "trajetória",
+        "en": "path"
       }
     },
-    "currently": {
-      "pt": "Atualmente",
-      "en": "Currently"
+    "pipeline": {
+      "alt": {
+        "pt": "Animação: pontos de dados atravessam as camadas raw, bronze, silver e gold, passam por um guard que barra instruções maliciosas e chegam ao LLM, que devolve a resposta.",
+        "en": "Animation: data points flow through the raw, bronze, silver and gold layers, pass a guard that blocks malicious instructions and reach the LLM, which returns the answer."
+      },
+      "caption": {
+        "pt": "fig. 01 — ilustração: do dado bruto à resposta, com um guard no caminho",
+        "en": "fig. 01 — illustration: from raw data to the answer, with a guard on the way"
+      },
+      "attack": {
+        "pt": "tente injetar um ataque",
+        "en": "try injecting an attack"
+      },
+      "attackLabel": {
+        "pt": "\"ignore as instruções anteriores\"",
+        "en": "\"ignore previous instructions\""
+      },
+      "blocked": {
+        "pt": "BARRADO",
+        "en": "BLOCKED"
+      },
+      "legend": {
+        "pt": "■ dado   ⊗ prompt injection",
+        "en": "■ data   ⊗ prompt injection"
+      }
     },
-    "featured": {
-      "pt": "destaque",
-      "en": "featured"
+    "seeCases": {
+      "pt": "Ver os casos",
+      "en": "See the case studies"
+    },
+    "moreWork": {
+      "pt": "Mais trabalhos",
+      "en": "More work"
+    },
+    "flow": {
+      "pt": "fluxo",
+      "en": "flow"
+    },
+    "result": {
+      "pt": "Impacto",
+      "en": "Impact"
     },
     "repo": {
       "pt": "repositório",
@@ -622,8 +1303,58 @@
       "en": "Handmade with HTML, CSS and JS"
     },
     "pageTitle": {
-      "pt": "Jammesson Cabral — Currículo",
-      "en": "Jammesson Cabral — Résumé"
+      "pt": "Jammesson Cabral — Arquiteto e Engenheiro de Dados",
+      "en": "Jammesson Cabral — Data Architect & Engineer"
+    },
+    "timeline": {
+      "label": {
+        "pt": "Trajetória",
+        "en": "Path"
+      },
+      "work": {
+        "pt": "Trabalho",
+        "en": "Work"
+      },
+      "study": {
+        "pt": "Estudo & conquistas",
+        "en": "Study & achievements"
+      },
+      "hint": {
+        "pt": "passe o mouse em um item para ver mais",
+        "en": "hover an item to see more"
+      },
+      "current": {
+        "pt": "em andamento",
+        "en": "in progress"
+      },
+      "hintTouch": {
+        "pt": "deslize para o lado → toque para ver mais",
+        "en": "swipe sideways → tap to see more"
+      }
+    },
+    "navLabel": {
+      "pt": "Seções",
+      "en": "Sections"
+    },
+    "proof": {
+      "pt": "Em números",
+      "en": "By the numbers"
+    },
+    "email": {
+      "pt": "Enviar e-mail",
+      "en": "Send an email"
+    },
+    "verify": {
+      "pt": "verificar credencial",
+      "en": "verify credential"
+    },
+    "certifications": {
+      "pt": "Certificações",
+      "en": "Certifications"
+    },
+    "validUntil": {
+      "pt": "válida até",
+      "en": "valid until"
     }
   }
 }

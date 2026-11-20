@@ -3,21 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jammesson Cabral — Currículo</title>
-  <meta name="description" content="Jammesson Cabral — Engenheiro de Computação, Engenharia de Software & Dados e pesquisa em segurança de LLMs (Prompt Injection).">
+  <title>Jammesson Cabral — Arquiteto e Engenheiro de Dados</title>
+  <meta name="description" content="Jammesson Cabral, Arquiteto de Dados, Engenheiro de Dados Sênior e professor universitário: plataformas de dados em AWS, Azure e Oracle Cloud para saúde e jurídico. 3 pós-graduações, 4 certificações Oracle e mestrado em segurança de LLMs.">
+  <link rel="canonical" href="https://jamcabral.github.io/">
+
+  <!-- cartão de compartilhamento (LinkedIn pede og:image com pelo menos 1200×627) -->
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Jammesson Cabral">
-  <meta property="og:description" content="Computer Engineer · Software & Data Engineering · AI Security Researcher">
+  <meta property="og:site_name" content="jamcabral.github.io">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:title" content="Jammesson Cabral — Arquiteto e Engenheiro de Dados">
+  <meta property="og:description" content="Plataformas de dados em AWS, Azure e Oracle Cloud para saúde e jurídico, do sistema de origem ao dashboard executivo. Mestrado em segurança de LLMs.">
   <meta property="og:url" content="https://jamcabral.github.io/">
+  <meta property="og:image" content="https://jamcabral.github.io/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jammesson Cabral — Arquiteto de Dados e Engenheiro de Dados Sênior">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#cbcbcb">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jammesson Cabral",
+    "jobTitle": "Arquiteto de Dados",
+    "url": "https://jamcabral.github.io/",
+    "sameAs": ["https://www.linkedin.com/in/jammesson-cabral/", "https://github.com/jamcabral", "https://www.instagram.com/jmssca"],
+    "alumniOf": ["UNINASSAU", "PUC Minas", "CESAR School"],
+    "knowsAbout": ["Engenharia de Dados", "Data Lakehouse", "AWS", "Oracle Cloud", "Azure", "PySpark", "Segurança de LLMs", "Prompt Injection"]
+  }
+  </script>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23cbcbcb'/%3E%3Cpath d='M16 2v28M2 16h28' stroke='%230a0a0a' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%230a0a0a' stroke-width='2'/%3E%3C/svg%3E">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="assets/css/style.css">
 
   <script src="assets/js/crosshair.js" defer></script>
+  <script src="assets/js/pipeline.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </head>
 <body>
@@ -29,20 +54,41 @@
     </button>
   </header>
 
-  <main id="top" class="page">
-    <section class="hero" id="profile" aria-labelledby="hero-name">
-      <p class="label" id="hero-label"></p>
+  <section class="hero" id="top" aria-labelledby="hero-name">
+    <div class="hero__inner">
       <h1 class="hero__name" id="hero-name"></h1>
-      <p class="hero__title" id="hero-title"></p>
-      <p class="hero__summary" id="hero-summary"></p>
+      <ul class="hero__roles" id="hero-roles"></ul>
+      <p class="hero__pitch" id="hero-pitch" hidden></p>
       <ul class="hero__links" id="hero-links"></ul>
-    </section>
 
+      <div class="tl" id="timeline"></div>
+    </div>
+  </section>
+
+  <main class="page">
+    <ul class="proof" id="proof" hidden></ul>
     <div id="sections"></div>
+
+    <!-- figura do pipeline: o main.js a encaixa dentro da seção de pesquisa -->
+    <figure class="pipe" id="pipe" hidden>
+      <canvas class="pipe__canvas" id="pipeline" role="img"></canvas>
+      <figcaption class="pipe__caption">
+        <span id="pipe-caption"></span>
+        <button class="pipe__attack" id="pipe-attack" type="button"></button>
+        <span class="pipe__legend" id="pipe-legend"></span>
+      </figcaption>
+    </figure>
+
+    <section class="section contact" id="contact" hidden>
+      <h2 class="label" id="contact-label"></h2>
+      <p class="contact__title" id="contact-title"></p>
+      <p class="contact__text" id="contact-text"></p>
+      <ul class="hero__links" id="contact-links"></ul>
+    </section>
 
     <noscript>
       <p class="noscript">Este site precisa de JavaScript para carregar o conteúdo. / This site needs JavaScript to load its content.<br>
-      <a href="https://github.com/jamcabral">github.com/jamcabral</a> · <a href="https://www.linkedin.com/in/jammesson-cabral/">LinkedIn</a></p>
+      <a href="https://www.linkedin.com/in/jammesson-cabral/">LinkedIn</a> · <a href="https://github.com/jamcabral">GitHub</a> · <a href="https://www.instagram.com/jmssca">Instagram</a></p>
     </noscript>
   </main>
 
